@@ -3,7 +3,7 @@
 /**
  * Header Template
  * 
- * @package Learn
+ * @package Aquila
  */
 ?>
 <!DOCTYPE html>
