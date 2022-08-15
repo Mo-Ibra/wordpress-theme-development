@@ -1,17 +1,18 @@
 <?php
 /**
- * Footer Template
- * 
- * @package Learn
-*/
+ * Main template file.
+ *
+ * @package Aquila
+ */
+
+get_header();
+
 ?>
 
-<?php get_header(); ?> 
-
-<div class="container">
-    <p>Something in container</p>
+<div class="content">
+	Content
 </div>
 
-<?php get_template_part('templates/something', 'something') ?>
+<?php
 
-<?php get_footer(); ?>
+get_footer();
