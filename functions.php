@@ -1,20 +1,22 @@
 <?php
 /**
- * Theme Functions
- * 
- * @package Learn
-*/
+ * Theme Functions.
+ *
+ * @package Aquila
+ */
 
-// echo "<pre>";
-// print_r(LEARN_DIR_PATH);
-// echo "</pre>";
-// wp_die();
 
-if ( ! defined( 'LEARN_DIR_PATH' ) ) {
-	define( 'LEARN_DIR_PATH', untrailingslashit( get_template_directory() ) );
+if ( ! defined( 'AQUILA_DIR_PATH' ) ) {
+	define( 'AQUILA_DIR_PATH', untrailingslashit( get_template_directory() ) );
 }
 
-require_once LEARN_DIR_PATH . '/inc/helpers/autoloader.php';
+require_once AQUILA_DIR_PATH . '/inc/helpers/autoloader.php';
+
+function aquila_get_theme_instance() {
+	\AQUILA_THEME\Inc\AQUILA_THEME::get_instance();
+}
+
+aquila_get_theme_instance();
 
 function learn_enqueue_scripts() {
 

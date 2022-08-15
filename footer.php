@@ -2,7 +2,7 @@
 /**
  * Footer Template
  * 
- * @package Learn
+ * @package Aquila
 */
 ?>
 
