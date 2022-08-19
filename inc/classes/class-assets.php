@@ -10,6 +10,7 @@ namespace Aquila_Theme\Inc;
 use AQUILA_THEME\Inc\Traits\Singleton;
 
 class Assets {
+	
 	use Singleton;
 
 	protected function __construct() {
