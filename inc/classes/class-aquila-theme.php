@@ -58,6 +58,11 @@ class AQUILA_THEME
 		// Post Thumbnail
 		add_theme_support('post-thumbnails');
 
+		/**
+		 * Register image sizes.
+		 */
+		add_image_size('featured-thumbnail', 350, 233, true);
+
 		// Enables Selective Refresh for Widgets
 		add_theme_support('customize-selective-refresh-widgets');
 
